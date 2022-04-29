@@ -1,0 +1,24 @@
+<div class="messenger">
+    <ul class="message-list">
+        <% for (let i = 0; i < 6; i++) { %>
+            <li>
+                <img src="/public/img/avatar.png" alt="avatar" class="avatar">
+                <h2 class="section-header">Имя автора <%= i + 1 %></h2>
+                <p>
+                    <% for (let j = 0; j < i + 1; j++) { %>
+                        hiiiiiiiiiiiiiiiiiiiiiiii<br>
+                    <% } %>
+                </p>
+            </li>
+            <% } %>
+    </ul>
+    <div class="send-panel">
+        <div class="container">
+            <textarea name="comment" placeholder="Ваше сообщение..."></textarea>
+            <a href="#">
+                <img src="/public/img/send_icon.png" alt="send">
+            </a>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="/public/css/messenger.css">

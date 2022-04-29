@@ -1,0 +1,76 @@
+.messenger .message-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 165px;
+}
+
+.messenger .message-list li {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #383838;
+    padding: 55px;
+    padding-left: 230px;
+    border-radius: 55px;
+    margin-bottom: 40px;
+    min-height: 190px;
+}
+
+.messenger .message-list li img {
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    border-radius: 60px;
+}
+
+.messenger .message-list li .section-header {
+    margin-bottom: 15px;
+}
+
+.messenger .message-list li p {
+    padding: 0;
+    margin: 0;
+}
+
+.messenger .send-panel {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 165px;
+    background-color: #2c2c2c;
+    padding: 25px 65px;
+}
+
+.messenger .send-panel .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 115px;
+}
+
+.messenger .send-panel textarea {
+    box-sizing: border-box;
+    outline: none;
+    width: 1075px;
+    min-height: 115px;
+    background-color: #555555;
+    border-radius: 25px;
+    padding: 22px 25px;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+
+.messenger .send-panel a {
+    width: 115px;
+    height: 115px;
+    background-color: #8A3A97;
+    border-radius: 30px;
+}
+
+.messenger .send-panel a img {
+    margin: 27px;
+}

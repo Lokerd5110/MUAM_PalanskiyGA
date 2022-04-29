@@ -1,0 +1,32 @@
+.article_small {
+    box-sizing: border-box;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 55px;
+}
+
+.article_small h2 {
+    margin-top: 200px;
+    width: 280px;
+    z-index: 1;
+    text-align: center;
+}
+
+.article_small .btn {
+    z-index: 1;
+}
+
+.article_small img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 500px;
+    border-radius: 55px;
+}

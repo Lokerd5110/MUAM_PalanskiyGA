@@ -1,0 +1,23 @@
+.articles {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articles li {
+    margin-bottom: 40px;
+}
+
+.articles li:nth-of-type(2n) .back {
+    left: 0;
+    transform: scale(-1, 1);
+}
+
+.articles li:nth-of-type(2n) .gradient {
+    transform: scale(-1, 1);
+}
+
+.articles li:nth-of-type(2n) .article-container {
+    margin-left: auto;
+    text-align: end;
+}
